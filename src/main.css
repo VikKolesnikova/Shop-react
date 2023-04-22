@@ -4,13 +4,13 @@
     top       : 0;
     right     : 0;
     bottom    : 0;
-    background: #fff;
+    background: rgb(253, 212, 212);
     z-index   : 100500;
 }
 
 #page-preloader .spinner {
-    width     : 64px;
-    height    : 64px;
+    width     : 62px;
+    height    : 62px;
     position  : absolute;
     left      : 50%;
     top       : 50%;
@@ -19,7 +19,7 @@
 }
 
 .view-container {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .cart-order {
@@ -32,11 +32,11 @@
 
 .book-list .thumbnail .caption {
     position: relative;
-    z-index : 40;
+    z-index : 42;
 }
 
 .caption {
-    min-height: 165px;
+    min-height: 162px;
 }
 
 
@@ -53,7 +53,7 @@
     position         : absolute;
     top              : 0;
     left             : -75%;
-    z-index          : 2;
+    z-index          : 3;
     display          : block;
     content          : '';
     width            : 50%;
@@ -82,7 +82,7 @@
 }
 
 .dropdown-menu td {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .rating {
@@ -92,7 +92,7 @@
 }
 
 .rating li {
-    color          : #ddd;
+    color          : rgb(161, 156, 156);
     display        : inline-block;
     list-style-type: none;
     padding        : 1px;
@@ -104,7 +104,7 @@
 }
 
 .itemButton {
-    margin-top: 20px;
+    margin-top: 22px;
     text-align: center;
 }
 
@@ -134,14 +134,14 @@
     color          : #ddd;
     cursor         : pointer;
     display        : inline-block;
-    font-size      : 20px;
+    font-size      : 22px;
     list-style-type: none;
-    padding        : 1px;
+    padding        : 2px;
     text-shadow    : .05em .05em #aaa;
 }
 
 .star-rating .star.filled {
-    color: #d17581;
+    color: #d175c6;
 }
 
 .star-rating.readonly .star.filled {
@@ -149,10 +149,10 @@
 }
 
 .average-rating-container {
-    height  : 16px;
+    height  : 18px;
     overflow: hidden;
     position: relative;
-    width   : 80px;
+    width   : 82px;
 }
 
 .average-rating-container .background,
@@ -169,13 +169,13 @@
     cursor                : default;
     display               : inline-block;
     font-family           : 'Glyphicons Halflings';
-    font-size             : 14px;
+    font-size             : 12px;
     font-style            : normal;
     font-weight           : 400;
     line-height           : 1;
     moz-osx-font-smoothing: grayscale;
     position              : relative;
-    top                   : 1px;
+    top                   : 2px;
     webkit-font-smoothing : antialiased;
 }
 
