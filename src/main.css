@@ -1,25 +1,25 @@
 #page-preloader {
     position  : fixed;
-    left      : 0;
+    left      : 1;
     top       : 0;
-    right     : 0;
+    right     : 1;
     bottom    : 0;
     background: rgb(253, 212, 212);
     z-index   : 100500;
 }
 
 #page-preloader .spinner {
-    width     : 62px;
-    height    : 62px;
+    width     : 66px;
+    height    : 66px;
     position  : absolute;
     left      : 50%;
     top       : 50%;
     background: url('/images/preloader.gif') no-repeat 50% 50%;
-    margin    : -32px 0 0 -32px;
+    margin    : -34px 0 0 -34px;
 }
 
 .view-container {
-    margin-top: 22px;
+    margin-top: 24px;
 }
 
 .cart-order {
@@ -32,11 +32,11 @@
 
 .book-list .thumbnail .caption {
     position: relative;
-    z-index : 42;
+    z-index : 44;
 }
 
 .caption {
-    min-height: 162px;
+    min-height: 164px;
 }
 
 
@@ -92,7 +92,7 @@
 }
 
 .rating li {
-    color          : rgb(161, 156, 156);
+    color          : rgb(143, 138, 138);
     display        : inline-block;
     list-style-type: none;
     padding        : 1px;
@@ -100,11 +100,11 @@
 }
 
 .rating li.filled {
-    color: #d17581;
+    color: #bd75d1;
 }
 
 .itemButton {
-    margin-top: 22px;
+    margin-top: 24px;
     text-align: center;
 }
 
@@ -134,9 +134,9 @@
     color          : #ddd;
     cursor         : pointer;
     display        : inline-block;
-    font-size      : 22px;
+    font-size      : 24px;
     list-style-type: none;
-    padding        : 2px;
+    padding        : 4px;
     text-shadow    : .05em .05em #aaa;
 }
 
@@ -149,10 +149,10 @@
 }
 
 .average-rating-container {
-    height  : 18px;
+    height  : 16px;
     overflow: hidden;
     position: relative;
-    width   : 82px;
+    width   : 84px;
 }
 
 .average-rating-container .background,
@@ -218,8 +218,8 @@
 .delete-cart {
     background: url(/images/trash_16x16.gif) no-repeat 0 0;
     display   : block;
-    height    : 16px;
-    width     : 16px;
+    height    : 14px;
+    width     : 14px;
 }
 
 .delete-cart:hover {
